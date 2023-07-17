@@ -1,0 +1,316 @@
+@import url("https://fonts.googleapis.com/css2?family=Acme&family=Inconsolata&family=Luxurious+Roman&display=swap");
+/*all the underlines from achor tags are removed*/
+a {
+  text-decoration: none;
+}
+
+/*styling of header class*/
+.header {
+  background-color: #222426;
+  margin: auto;
+}
+.headersection {
+  display: flex;
+  justify-content: center;
+  height: 5%;
+}
+
+/*styling of logocontainer class which consists of logo*/
+.logocontainer {
+  flex: 20%;
+
+  justify-content: center;
+}
+/*styling of logo class which is fits the logo in a better way */
+.logo {
+  max-width: 100%;
+  max-height: 85%;
+  object-fit: contain;
+  padding: 10px;
+}
+
+.button {
+  padding: 12px 20px;
+  border-radius: 50px;
+  border: 0;
+  background-color: white;
+  box-shadow: rgb(0 0 0 / 5%) 0 0 8px;
+  letter-spacing: 1.5px;
+  text-transform: uppercase;
+  font-size: 15px;
+  transition: all 0.5s ease;
+}
+
+.button:hover {
+  letter-spacing: 3px;
+  background-color: #b43546;
+  color: hsl(0, 0%, 100%);
+  box-shadow: black 0px 7px 29px 0px;
+}
+
+.button:active {
+  letter-spacing: 3px;
+  background-color: hsl(261deg 80% 48%);
+  color: hsl(0, 0%, 100%);
+  box-shadow: rgb(93 24 220) 0px 0px 0px 0px;
+  transform: translateY(10px);
+  transition: 100ms;
+}
+.loginButton {
+  flex: 65%;
+  display: flex;
+  margin: auto 10px;
+  justify-content: right;
+}
+.logincontainer {
+  flex: 5%;
+  display: flex;
+  justify-content: left;
+  margin: auto 10px;
+  font-size: 31px;
+  font-weight: bold;
+  font-family: "Luxurious Roman", cursive;
+}
+
+.icon {
+  margin: auto 2px;
+}
+
+.logincontainer:link {
+  color: #b43546;
+}
+
+.logincontainer:visited {
+  color: #b43546;
+}
+
+.logincontainer:active {
+  color: #b43546;
+}
+/*color of links of carcontainer design end*/
+
+/*when hovered on cartlink te opacity should ease out to opacity 50%*/
+.logincontainer:hover {
+  filter: opacity(50%);
+  transition: filter 0.3s ease;
+}
+.cartcontainer {
+  flex: 10%;
+  display: flex;
+}
+
+/*styling of cartlink where there are three section which are flexed through this*/
+.cartlink {
+  display: flex;
+  flex-wrap: nowrap;
+  margin: auto;
+  padding: 4px;
+  font-size: 21px;
+  background: #1a1a1f;
+  font-weight: bold;
+  box-shadow: 1px 2px #1a1a1f93;
+  font-family: "Monospace";
+  border-radius: 8px;
+  box-shadow: 0 0 1px 1px #b43546;
+}
+
+/*all the cartlink classes texts and logos are changed the same color*/
+.cartlink:link {
+  color: #b43546;
+}
+
+.cartlink:visited {
+  color: #b43546;
+}
+
+.cartlink:active {
+  color: #b43546;
+}
+/*color of links of carcontainer design end*/
+
+/*when hovered on cartlink te opacity should ease out to opacity 50%*/
+.cartlink:hover {
+  filter: opacity(50%);
+  transition: filter 0.3s ease;
+}
+
+/*styling of the number inside the cartcontiner*/
+.cartnumber {
+  font-size: 21px;
+  font-weight: bold;
+  color: rgb(0, 159, 233);
+  padding-left: 3px;
+}
+.search-container {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: center;
+  margin: 10px
+}
+
+input[type="search"] {
+  width: 50%;
+  border-radius: 20px;
+  padding: 10px;
+  border: 1px solid gray;
+}
+
+.search-button {
+  font-size: 30px;
+  background-color: Transparent;
+  border: none;
+  margin-top: 8px;
+  cursor: pointer;
+  padding: auto;
+  color: #b43546;
+  padding: 10px;
+}
+
+.search-button:link {
+  color: #b43546;
+}
+
+.search-button:visited {
+  color: #b43546;
+}
+
+.search-button:active {
+  color: #b43546;
+}
+/*color of links of carcontainer design end*/
+
+/*when hovered on cartlink te opacity should ease out to opacity 50%*/
+.search-button:hover {
+  filter: opacity(50%);
+  transition: filter 0.3s ease;
+}
+
+/*styling of table of the navigation*/
+.navtable {
+  display: flex;
+  justify-content: center;
+  border-top: 1px solid #b43546;
+  margin: 20px
+}
+
+/*styling to highlight the current page name in the navigation*/
+/* .navigationcurrent {
+  background-color: #3e4145;
+  height: 60px;
+  font-size: 25px;
+  font-family: Helvetica;
+}
+
+/*to increase the clickable area of links of navigation 
+.navigationcurrent a {
+  display: block;
+  width: 100%;
+} */
+
+/*styling of all the all the items in the navigation*/
+.navigation {
+  list-style: none;
+  font-family: "Raleway", sans-serif;
+  color: #b43546;
+  font-size: 15px;
+  text-decoration: none;
+  font-family: Helvetica;
+  padding: 0%;
+}
+
+/*targenting the list items of navigation bar*/
+.navigation li {
+  display: inline-block;
+  margin-left: 30px;
+  margin-right: 30px;
+}
+
+/*targeting the links of the list items of the navigation bar*/
+.navigation li a {
+  transition: all 0.3s;
+  text-decoration: none;
+  color: #b43546;
+}
+
+.navigationsmall {
+  list-style: none;
+  font-family: "Raleway", sans-serif;
+  color: #b43546;
+  font-size: 20px;
+  text-decoration: none;
+  font-family: Helvetica;
+  padding: 0%;
+  margin: 13px 0px;
+}
+.navigationsmall li {
+  display: none;
+  margin-left: 30px;
+  margin-right: 30px;
+}
+.navigationsmall li a {
+  transition: all 0.3s;
+  text-decoration: none;
+  color: #b43546;
+}
+
+/*to increase the clickable area of links of navigation */
+/* .navigation a {
+  display: block;
+  width: 100%;
+} */
+
+/*all the colors and fonts of the links are changed to same of the linkcolor class*/
+.linkcolor {
+  color: #9e9e9e;
+  font-family: "Inconsolata", monospace;
+}
+
+.linkcolor:link {
+  color: #9e9e9e;
+}
+
+.linkcolor:visited {
+  color: #9e9e9e;
+}
+
+.linkcolor:active {
+  color: #9e9e9e;
+}
+
+/*all the color of links in linkcolorclass changes to white when hovered*/
+.linkcolor:hover {
+  color: white;
+}
+
+/*when hovered in the images of linkcolor class the images color changes to a bit of a dark shade*/
+.linkcolor:hover > img {
+  filter: invert(50%);
+}
+/*linkcolor styling end*/
+
+/*to change the color  and font-family of footer heading*/
+.footerheadingcolor {
+  color: white;
+  font-family: "Acme", sans-serif;
+}
+
+/*when hovered in this class the color changes*/
+.footerheadingcolor:hover {
+  color: #9e9e9e;
+}
+
+/*to change the family of copyright section*/
+.copyright {
+  font-family: "Acme", sans-serif;
+}
+
+@media screen and (max-width: 650px) {
+  
+  .cartlink label {
+    display: none;
+  }
+}
+@media screen and (max-width: 400px) {
+ 
+}

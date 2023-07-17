@@ -1,0 +1,367 @@
+@import url("https://fonts.googleapis.com/css2?family=Arvo&family=Bungee&display=swap");
+body {
+  overflow-x: hidden;
+}
+
+.flexcontainer {
+  display: flex;
+  color: white;
+}
+
+.flexcolumn {
+  flex: 19.19%;
+  background-color: #141617;
+  padding: 10px;
+  color: white;
+  height: auto;
+}
+
+.flexcolumn2 {
+  flex-wrap: wrap;
+  flex: 80%;
+  background-color: #141617;
+  padding: 5px;
+  align-content: center;
+}
+
+.sidenav-container {
+  background-color: #222426;
+  border: 1px solid #ccc;
+  border-radius: 10px;
+  padding: 10px;
+  width: 200px;
+  height: 100%;
+  margin: 10px;
+}
+
+.sidenav-heading {
+  border-bottom: 1px solid #ccc;
+  margin-bottom: 10px;
+  padding-bottom: 10px;
+}
+
+.sidenav-heading h3 {
+  font-size: 20px;
+  margin: 0;
+}
+
+.sidenav-list {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+.sidenav-list li {
+  border-bottom: 1px solid #ccc;
+  margin-bottom: 5px;
+}
+
+.sidenav-list li:last-child {
+  border-bottom: none;
+  margin-bottom: 0;
+}
+
+.sidenav-list li a {
+  color: #333;
+  display: block;
+  padding: 5px;
+  text-decoration: none;
+}
+
+.sidenav-list li a:hover {
+  background-color: #333;
+  color: #fff;
+}
+
+.productflex {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.productimage {
+  margin: 10px;
+  width: 390px;
+  max-width: 100%;
+  filter: opacity(100%);
+}
+
+.productname {
+  font-family: "Arvo", serif;
+}
+
+.cartForm {
+  position: absolute;
+  border-radius: 20px;
+  width: 25%;
+  top: 75%;
+  border: 1px solid lightslategrey;
+  background-color: lightslategrey;
+  left: 38%;
+  font-size: 1.1vw;
+  filter: opacity(0%);
+  text-align: center;
+  color: #b43546;
+}
+@media only screen and (max-width: 900px) {
+  .cartForm {
+    font-size: 2vw;
+    top: 70%;
+  }
+}
+
+.cartForm:link {
+  color: #b43546;
+}
+
+.cartForm:visited {
+  color: #b43546;
+}
+
+.cartForm:active {
+  color: #b43546;
+}
+
+.cartForm:hover {
+  filter: opacity(100%);
+  transition: filter 0.3s ease;
+}
+.cart {
+  background-color: transparent;
+  border-color: transparent;
+  color: #b43546;
+  cursor: pointer;
+}
+
+.editButtonForm {
+  position: absolute;
+  border-radius: 20px;
+  width: 25%;
+  top: 75%;
+  border: 1px solid lightslategrey;
+  background-color: lightslategrey;
+  left: 15%;
+  transform: translate(0, -50%);
+  font-size: 1.1vw;
+  filter: opacity(0%);
+  text-align: center;
+  color: #b43546;
+   cursor: pointer;
+}
+@media only screen and (max-width: 900px) {
+  .editButtonForm {
+    font-size: 2vw;
+    top: 70%;
+    
+  }
+}
+
+.editButtonForm:link {
+  color: #b43546;
+}
+
+.editButtonForm:visited {
+  color: #b43546;
+}
+
+.editButtonForm:active {
+  color: #b43546;
+}
+
+.editButtonForm:hover {
+  filter: opacity(100%);
+  transition: filter 0.3s ease;
+}
+
+.editButton {
+  background-color: transparent;
+  border-color: transparent;
+  color: #b43546;
+  cursor: pointer;
+}
+
+.deleteButtonForm {
+  position: absolute;
+  border-radius: 20px;
+  width: 25%;
+  top: 75%;
+  border: 1px solid lightslategrey;
+  background-color: lightslategrey;
+  left: 60%;
+  font-size: 1.1vw;
+  transform: translate(0, -50%);
+  filter: opacity(0%);
+  text-align: center;
+  color: #b43546;
+}
+@media only screen and (max-width: 900px) {
+  .deleteButtonForm {
+    font-size: 2vw;
+    top: 70%;
+  }
+}
+
+.deleteButtonForm:link {
+  color: #b43546;
+}
+
+.deleteButtonForm:visited {
+  color: #b43546;
+}
+
+.deleteButtonForm:active {
+  color: #b43546;
+}
+
+.deleteButtonForm:hover {
+  filter: opacity(100%);
+  transition: filter 0.3s ease;
+
+}
+
+.deleteButton {
+  background-color: transparent;
+  border-color: transparent;
+  color: #b43546;
+  cursor: pointer;
+}
+.viewOrderButtonForm {
+  position: absolute;
+  border-radius: 20px;
+  width: 25%;
+  top: 60%;
+  border: 1px solid lightslategrey;
+  background-color: lightslategrey;
+  left: 40%;
+  font-size: 1.1vw;
+  transform: translate(0, -50%);
+  filter: opacity(0%);
+  text-align: center;
+  color: #b43546;
+}
+@media only screen and (max-width: 900px) {
+  .viewOrderButtonForm {
+    font-size: 2vw;
+    top: 55%;
+  }
+}
+
+.viewOrderButtonForm:link {
+  color: #b43546;
+}
+
+.viewOrderButtonForm:visited {
+  color: #b43546;
+}
+
+.viewOrderButtonForm:active {
+  color: #b43546;
+}
+
+.viewOrderButtonForm:hover {
+  filter: opacity(100%);
+  transition: filter 0.3s ease;
+
+}
+
+.viewOrderButton {
+  background-color: transparent;
+  border-color: transparent;
+  color: #b43546;
+  cursor: pointer;
+}
+
+.products {
+  background-color: #1a1a1f;
+  margin: 10px;
+  position: relative;
+  border-radius: 10px;
+}
+
+.producttext {
+  background-color: #1a1a1f;
+  text-align: center;
+}
+.productsubbgcolor {
+  background-color: #222426;
+  margin: 10px;
+  border-radius: 10px;
+}
+
+.productlinkcolor {
+  color: #b43546;
+}
+
+.productlinkcolor:link {
+  color: #b43546;
+}
+
+.productlinkcolor:visited {
+  color: #b43546;
+}
+
+.productlinkcolor:active {
+  color: #b43546;
+}
+
+.productlinkcolor:hover {
+  filter: opacity(50%);
+  transition: filter 0.3s ease;
+}
+.imagecartcontainer:hover > .cartForm {
+  filter: opacity(100%);
+  transition: filter 0.5s ease;
+}
+.imagecartcontainer:hover > .editButtonForm {
+  filter: opacity(100%);
+  transition: filter 0.5s ease;
+  
+}
+.imagecartcontainer:hover > .deleteButtonForm {
+  filter: opacity(100%);
+  transition: filter 0.5s ease;
+}
+.imagecartcontainer:hover > .viewOrderButtonForm {
+  filter: opacity(100%);
+  transition: filter 0.5s ease;
+  
+}
+
+.imagecartcontainer:hover > .productimage {
+  filter: opacity(70%) blur(1px);
+  transition: filter 0.3s ease;
+}
+
+.productlinkcolor.editButtonForm:hover .productlinkcolor.productimage {
+  filter: opacity(70%) blur(1px);
+  transition: filter 0.3s ease;
+}
+
+.productpricecolor {
+  color: #b43546;
+  font-family: "Arvo", serif;
+}
+
+.productStock {
+  color: #b43546;
+  font-family: "Arvo", serif;
+}
+
+.categoryheading {
+  display: block;
+  font-size: 20px;
+  font-weight: bold;
+  text-align: center;
+  font-family: "Bungee", cursive;
+  color: #811725;
+}
+
+.navigationforProduct {
+  display: flex;
+  justify-content: center;
+}
+
+.navigationforProduct > a {
+  color: #b43546;
+}

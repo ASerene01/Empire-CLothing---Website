@@ -1,0 +1,98 @@
+body {
+  overflow-x: hidden;
+  font-family: "Poppins", sans-serif;
+}
+
+/*container for form section which has all styling of the form section*/
+.formsection {
+  width: 60%;
+  border-radius: 10px;
+  margin: 10px;
+  margin-top: 25px;
+  text-align: center;
+  padding: 15px;
+  justify-content: center;
+  background-color: rgba(180, 53, 70, 0.63);
+  box-shadow: 0 0 25px 5px #b43546;
+}
+/*styling for all the span of formsection*/
+.formsection span {
+  font-size: 20px;
+}
+
+/*container for the section inside the formsection*/
+.container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+}
+
+/*styling for the the details class of container class*/
+.container .details {
+  width: 50%;
+  padding-bottom: 15px;
+}
+/*styling for  all the input section of details class*/
+.details input {
+  width: 90%;
+  height: 25px;
+  border-radius: 7px;
+}
+
+/*styling for the gender-details class*/
+.gender-details {
+  padding-bottom: 15px;
+}
+
+.profilePicture {
+  width: 100%;
+}
+
+@media screen and (max-width: 600px) {
+  .container {
+    display: block;
+  }
+
+  .formsection {
+    width: auto;
+  }
+
+  .container .details {
+    width: 100%;
+    padding-bottom: 15px;
+  }
+}
+
+.formboxcontainer {
+  display: flex;
+
+  justify-content: center;
+}
+
+button:not(.search-button) {
+  padding: 5px 20px;
+  border-radius: 50px;
+  border: 0;
+  background-color: white;
+  box-shadow: rgb(0 0 0 / 5%) 0 0 8px;
+  letter-spacing: 1.5px;
+  text-transform: uppercase;
+  font-size: 15px;
+  transition: all 0.5s ease;
+}
+
+button:hover {
+  letter-spacing: 3px;
+  background-color: #b43546;
+  color: hsl(0, 0%, 100%);
+  box-shadow: black 0px 7px 29px 0px;
+}
+
+button:active:not(.search-button) {
+  letter-spacing: 3px;
+  background-color: hsl(261deg 80% 48%);
+  color: hsl(0, 0%, 100%);
+  box-shadow: rgb(93 24 220) 0px 0px 0px 0px;
+  transform: translateY(10px);
+  transition: 100ms;
+}

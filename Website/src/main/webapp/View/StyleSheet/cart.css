@@ -1,0 +1,125 @@
+@import url("https://fonts.googleapis.com/css2?family=Cabin&family=Merriweather:wght@300&display=swap");
+.cartbox {
+  display: flex;
+  flex-wrap: wrap;
+  max-width: 100%;
+  justify-content: space-around;
+  color: white;
+  margin-top: 50px;
+}
+
+.cartbox ion-icon {
+  cursor: pointer;
+}
+
+.cartheader {
+  width: 100%;
+  max-width: 100%;
+  display: flex;
+  justify-content: flex-start;
+  margin: 0 auto;
+  font-family: "Merriweather", serif;
+}
+
+.title {
+  width: 55%;
+  align-items: center;
+  border-bottom: 1px solid grey;
+}
+
+.price {
+  width: 15%;
+  display: flex;
+  align-items: center;
+  border-bottom: 1px solid grey;
+}
+
+.quantity {
+  width: 15%;
+  display: flex;
+  align-items: center;
+  border-bottom: 1px solid grey;
+}
+
+.totalprice {
+  width: 15%;
+  display: flex;
+  align-items: center;
+  border-bottom: 1px solid grey;
+}
+
+.cartproduct {
+  width: 55%;
+  display: flex;
+  justify-content: flex-start;
+  border-bottom: 1px solid grey;
+  align-items: center;
+  padding: 10px 0;
+  color: rgb(255, 0, 0);
+}
+
+.cartproducts {
+  width: 100%;
+  display: flex;
+  flex-wrap: wrap;
+  font-family: "Cabin", sans-serif;
+}
+.cartproducts img {
+  width: 75px;
+  padding: 10px;
+}
+
+.totalcontainer {
+  display: flex;
+  justify-content: flex-end;
+  width: 100%;
+  padding: 10px 0;
+}
+
+.totaltitle {
+  width: 85%;
+  text-align: center;
+}
+
+.total {
+  width: 17.5%;
+}
+.totalproducts {
+  width: 15.5%;
+}
+
+.empty {
+  padding: 10px;
+  font-size: 20px;
+}
+
+.checkoutcontainer {
+  display: flex;
+  width: 90%;
+  justify-content: flex-end;
+  padding: 20px 30px;
+}
+
+.checkoutbutton {
+  border-radius: 5px;
+  font-size: 18px;
+  background-color: rgb(26, 92, 214);
+  color: white;
+  padding: 5px;
+}
+
+.checkoutcontainer:hover {
+  filter: opacity(50%);
+}
+
+.checkoutcontainer:link {
+  color: white;
+}
+
+.checkoutcontainer:visited {
+  color: white;
+}
+
+.checkoutcontainer:active {
+  color: white;
+}
